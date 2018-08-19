@@ -42,3 +42,7 @@ HiararchicalClusterHs Test.txt Result.txt
 ## Library
 
 Although HierarchicalClusterHs currently supports only numerical data and the Euclidean distance, the library that comes with it allows supplying other distance functions and other data types.
+
+## Notes
+
+If you supply HierarchicalClusterHs a data file with n data points, you can ask from 1 to n different clusters to be found. If you ask for 3 clusters, HiararchicalClusterHs starts with n clusters and at each stage it reduces the number of clusters as n-1, n-2, ... until 3. The number of clusters are reduced by joining the ones that are close to each other. The distance between two clusters is currently set as the minimum distance between data points from those clusters. This may result in undesired behavior in certain applications.
