@@ -2,7 +2,7 @@
 
 HierarchicalClusterHs is a small Haskell program for clustering data based on hierarchical clusterization.
 
-![An example case][test/TestResult.png]
+![An example case](test/TestResult.png)
 
 ## Usage
 
