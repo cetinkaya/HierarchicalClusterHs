@@ -6,7 +6,7 @@ HierarchicalClusterHs is a small Haskell program for clustering data based on hi
 
 ## Usage
 
-HierarchicalClusterHs currently excepts data points to be given in a single-space-separated data file. For example,  `Test.txt`:
+HierarchicalClusterHs currently requires data points to be given in a single-space-separated data file. For example,  `Test.txt`:
 
 ```
 0.9832849 0.0684199
@@ -33,7 +33,7 @@ which creates a `Result.txt` file with the last column representing the cluster 
 
 The order of data points in the original file is not preserved.
 
-If number of clusters is not supplied as a command line argument, then it is decided automatically.
+If the number of clusters is not supplied as a command line argument, then it is decided automatically.
 
 ```sh
 HiararchicalClusterHs Test.txt Result.txt
@@ -41,7 +41,7 @@ HiararchicalClusterHs Test.txt Result.txt
 
 ## Library
 
-Although HierarchicalClusterHs currently supports only numerical data and the Euclidean distance, the library that comes with it allows supplying other distance functions and other data types.
+Although HierarchicalClusterHs currently supports only numerical data and the Euclidean distance, the library that comes with it allows supplying other data types with other distance functions.
 
 ## Notes
 
